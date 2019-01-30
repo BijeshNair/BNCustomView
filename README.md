@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/BNCustomView.svg?style=flat)](https://cocoapods.org/pods/BNCustomView)
 [![Platform](https://img.shields.io/cocoapods/p/BNCustomView.svg?style=flat)](https://cocoapods.org/pods/BNCustomView)
 
+
+![Custom View](https://media.giphy.com/media/1n92xpzZ1W0BbfBNl7/giphy.gif?raw=true)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
