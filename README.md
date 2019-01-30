@@ -8,10 +8,6 @@
 ![Custom View](https://media.giphy.com/media/1n92xpzZ1W0BbfBNl7/giphy.gif?raw=true)
 
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Installation
 
 BNCustomView is available through [CocoaPods](https://cocoapods.org). To install
@@ -20,6 +16,23 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'BNCustomView'
 ```
+
+## Implementation
+
+```
+customViewDemo.logoBackgroundColor = UIColor(red:0.72, green:0.56, blue:0.02, alpha:1.0)
+customViewDemo.borderColor = .white
+customViewDemo.textFont = UIFont(name: "Arial-BoldItalicMT", size: 18)
+customViewDemo.textColor = customViewDemo.logoBackgroundColor
+customViewDemo.viewBackgroundColor = .clear
+customViewDemo.textTip = "stringContent"
+customViewDemo.setViewType = BNCustomView.viewType.Quotation
+customViewDemo.forwardTiltPadding = 30
+```
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
