@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BNCustomView_Example' do
+  pod 'BNCustomView', :path => '../'
+
+  target 'BNCustomView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

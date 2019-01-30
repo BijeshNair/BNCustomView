@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BNCustomView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YqI-Bs-ice">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iiz-e6-tg9" customClass="BNCustomView" customModule="BNCustomView">
+                                        <rect key="frame" x="20" y="53" width="374" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.16089325639999999" green="0.26381010729999999" blue="0.43418861040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fOU-BJ-ObW" customClass="BNCustomView" customModule="BNCustomView">
+                                        <rect key="frame" x="20" y="262" width="374" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.16089325639999999" green="0.26381010729999999" blue="0.43418861040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6CW-UJ-sWp" customClass="BNCustomView" customModule="BNCustomView">
+                                        <rect key="frame" x="20" y="472" width="374" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.16089325639999999" green="0.26381010729999999" blue="0.43418861040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gGu-CY-h9R" customClass="BNCustomView" customModule="BNCustomView">
+                                        <rect key="frame" x="20" y="682" width="374" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.16089325639999999" green="0.26381010729999999" blue="0.43418861040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w0y-lm-Jgj" customClass="BNCustomView" customModule="BNCustomView">
+                                        <rect key="frame" x="20" y="893" width="374" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.16089325639999999" green="0.26381010729999999" blue="0.43418861040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pjI-tf-znT" customClass="BNCustomView" customModule="BNCustomView">
+                                        <rect key="frame" x="20" y="1105" width="374" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.16089325639999999" green="0.26381010729999999" blue="0.43418861040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="p1O-EX-jef"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.54483264600000003" green="0.28044205680000001" blue="0.31626743260000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="YqI-Bs-ice" secondAttribute="bottom" id="Ehu-yp-J33"/>
+                            <constraint firstItem="YqI-Bs-ice" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="cXc-fm-9KU"/>
+                            <constraint firstAttribute="trailing" secondItem="YqI-Bs-ice" secondAttribute="trailing" id="mDl-jp-o7r"/>
+                            <constraint firstItem="YqI-Bs-ice" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="viT-Hq-DaB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customViewDemo" destination="iiz-e6-tg9" id="R2B-iu-VzI"/>
+                        <outlet property="customViewDemo2" destination="fOU-BJ-ObW" id="UU8-IY-lhf"/>
+                        <outlet property="customViewDemo3" destination="6CW-UJ-sWp" id="xSD-ou-w5q"/>
+                        <outlet property="customViewDemo4" destination="gGu-CY-h9R" id="zKm-FI-VrS"/>
+                        <outlet property="customViewDemo5" destination="w0y-lm-Jgj" id="I30-0P-RL6"/>
+                        <outlet property="customViewDemo6" destination="pjI-tf-znT" id="Ltj-js-4t9"/>
+                        <outlet property="scrollViewMain" destination="YqI-Bs-ice" id="qqd-aH-cQn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="71.651785714285708"/>
+        </scene>
+    </scenes>
+</document>

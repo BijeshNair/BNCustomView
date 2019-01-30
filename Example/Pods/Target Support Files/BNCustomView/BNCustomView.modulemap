@@ -1,0 +1,6 @@
+framework module BNCustomView {
+  umbrella header "BNCustomView-umbrella.h"
+
+  export *
+  module * { export * }
+}

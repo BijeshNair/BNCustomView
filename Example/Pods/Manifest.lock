@@ -1,0 +1,16 @@
+PODS:
+  - BNCustomView (0.1.0)
+
+DEPENDENCIES:
+  - BNCustomView (from `../`)
+
+EXTERNAL SOURCES:
+  BNCustomView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BNCustomView: f87971581dafe80cc94a00d9a47a80c2e61042fe
+
+PODFILE CHECKSUM: c81677d54b92ef9ef4442c9a8723e744831a78db
+
+COCOAPODS: 1.5.3
